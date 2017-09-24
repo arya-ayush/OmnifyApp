@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/rv"
+    android:layout_weight="10"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"></android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/sort_button"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:background="@drawable/border_rounded"
+        android:text="Sort Numbers"
+        android:textSize="20sp"/>
+
+</LinearLayout>
