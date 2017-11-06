@@ -1,1 +1,1 @@
-# OmnifyApp
+# OmApp
